@@ -1,8 +1,6 @@
 using System;
-using System.Collections;
 using System.Collections.Generic;
 using System.Net;
-using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 using TMPro;
@@ -136,6 +134,7 @@ public class TikfinityLocalHost : MonoBehaviour
             case 2: Event2(); break;
             case 3: Event3(); break;
             case 4: Event4(); break;
+            case 5: Event5(); break;
         }
     }
 
@@ -154,6 +153,10 @@ public class TikfinityLocalHost : MonoBehaviour
     private void Event4()
     {
         infoText.text = "Event4 tetiklendi!";
+    }
+    private void Event5()
+    {
+        infoText.text = "Event5 tetiklendi!";
     }
     //......
 
